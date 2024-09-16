@@ -11,6 +11,5 @@ public class RectangleTester {
         /* Print the results of calling the contains method on the
         previously created Rectangle object with the arguments (-8, 6). */
         System.out.println(box.contains(-8, 6));
-
     }
 }
