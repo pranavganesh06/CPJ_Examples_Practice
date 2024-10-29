@@ -12,7 +12,7 @@ public class SearchContinueDemo {
         for (int i = 0; i < max; i++) {
             // interested only in specified char
             if (text.charAt(i) != lookFor) continue;
-            // process chars's
+            // process chars
             matches++;
         }
 
