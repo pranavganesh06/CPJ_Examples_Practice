@@ -25,5 +25,4 @@ public class ExecutionCountPractice {
             System.out.println();
         }
     }
-
 }
