@@ -7,8 +7,5 @@ public class DelimiterExample {
         input.useDelimiter("/");
         System.out.println(input.next());
         System.out.println(input.next());
-
-
     }
-
 }
