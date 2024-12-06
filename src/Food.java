@@ -3,6 +3,11 @@ public class Food
     private String name;
     private int calories;
 
+    /**
+     * Creates food with a given name and calories.
+     * @param foodName the name
+     * @param foodCalories the amount of calories
+     */
     public Food (String foodName, int foodCalories){
         name = foodName;
         calories = foodCalories;
