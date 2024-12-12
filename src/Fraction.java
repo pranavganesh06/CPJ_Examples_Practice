@@ -3,6 +3,11 @@ public class Fraction
     private int numerator;
     private int denominator;
 
+    /**
+     * Creates a fraction.
+     * @param numerator the numerator
+     * @param denominator the denominator
+     */
     public Fraction(int numerator, int denominator){
         this.numerator = numerator;
         this.denominator = denominator;
@@ -70,7 +75,6 @@ public class Fraction
      * Prints fraction as numerator / denominator
      * Example: 1 / 2
      */
-
     public String toString(){
         return numerator + " / " + denominator;
     }

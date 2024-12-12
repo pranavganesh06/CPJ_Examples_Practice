@@ -21,6 +21,12 @@ public class FractionMath {
         return solution;
     }
 
+    /**
+     *
+     * @param frac1
+     * @param frac2
+     * @return
+     */
     public static Fraction multiply(Fraction frac1, Fraction frac2){
         int numerator = frac1.getNumerator() * frac2.getNumerator();
         int denominator = frac1.getDenominator() * frac2.getDenominator();
