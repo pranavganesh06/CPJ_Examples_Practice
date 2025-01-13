@@ -6,5 +6,8 @@
 public class ArrayPractice1 {
     public static void main(String[] args){
         // TODO 1: Print every element in the array with a enhanced for loop.
-    }
+        for (String value: args) {
+            System.out.println(value);
+        }
+   }
 }

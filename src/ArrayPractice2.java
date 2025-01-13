@@ -37,7 +37,15 @@ public class ArrayPractice2 {
      */
     public static int findMax(String numbers){
         // TODO 1: Write an algorithm to complete this method.
-        return Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE;
+        Scanner input = new Scanner(numbers);
+        while (input.hasNextInt()){
+            int number = input.nextInt();
+            if (number > max){
+                max = number;
+            }
+        }
+        return max;
     }
 
     /**
@@ -48,6 +56,12 @@ public class ArrayPractice2 {
      */
     public static int findMax(int[] numbers, int index){
         // TODO 2: Write an algorithm to complete this method.
-        return Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE;
+        for (int number: numbers){
+            if (number > max){
+                max = number;
+            }
+        }
+        return max;
     }
 }
