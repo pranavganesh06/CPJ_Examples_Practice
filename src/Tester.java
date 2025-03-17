@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Random;
 
 public class Tester {
@@ -45,5 +46,5 @@ public class Tester {
 //
 //        }
 //        System.out.println(pets);
-    }
+
 }
