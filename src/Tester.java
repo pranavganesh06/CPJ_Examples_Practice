@@ -5,10 +5,13 @@ import java.util.Random;
 
 public class Tester {
     public static void main(String[] args) {
+        B test = new B();
+        test.work();
+
         double[][] something =
-                { {2.5, 6.8, 8.3, 2.3, 0.0},
+                {{2.5, 6.8, 8.3, 2.3, 0.0},
                         {6.1, 10.2, 1.3, -2.5, -9.9},
-                        {1.1, 2.3, 5.8, 13.21, 34.55} };
+                        {1.1, 2.3, 5.8, 13.21, 34.55}};
         something[1][0] = 3.1;
         something[1][1] = 4.1;
         something[1][2] = 5.9;
@@ -16,11 +19,27 @@ public class Tester {
         something[1][4] = 8.4;
 
         for (int i = 0; i < something.length; i++) {
-            for (int j = 0; j < something[i].length; j++){
+            for (int j = 0; j < something[i].length; j++) {
                 System.out.print(something[i][j] + " ");
             }
             System.out.println();
         }
+    }
+
+    static class A{
+        static void greet(){
+            System.out.println("Hello World");
+        }
+    }
+    static class B extends A{
+        int grade;
+        public B(){
+            grade = 0;
+        }
+        public void work(){
+            greet();
+        }
+    }
 
 //        ArrayList<String> pets = new ArrayList<String> ( );
 //
