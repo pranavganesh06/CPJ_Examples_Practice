@@ -33,6 +33,11 @@
 public class CharSequenceDemo implements CharSequence {
     //TODO Finish this class.
 
+    //Random int from 0 to max. As random() generates values between 0 and 0.9999
+    private static int random(int max) {
+        return (int) Math.round(Math.random() * (max+1));
+    }
+    
     public static void main(String[] args) {
         CharSequenceDemo s =
                 new CharSequenceDemo("Write a class that implements the CharSequence interface found in the java.lang package.");
