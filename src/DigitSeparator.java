@@ -8,7 +8,7 @@ public class DigitSeparator {
         String numStr = Integer.toString(number);
 
         for (int i = 0; i < numStr.length(); i++) {
-            System.out. print(numStr.charAt(i) + " ");
+            System.out. print(numStr.charAt(i) + " "    );
 
         }
     }
