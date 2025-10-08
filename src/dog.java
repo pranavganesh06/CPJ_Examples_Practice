@@ -1,16 +1,14 @@
 /**
  * Represents a basic dog that can fetch and speak.
  */
-
 public class Dog {
     public static final String GENUS = "Canis";
     private String speech;
     private String name;
 
-    // Constructor
-    public Dog(String dogName, String dogSpeech) {
-        this.name = dogName;
-        this.speech = dogSpeech;
+    public Dog(String dogName, String dogSpeech){
+        speech = dogSpeech;
+        name = dogName;
     }
 
     /**
@@ -18,7 +16,7 @@ public class Dog {
      * @param thing what was thrown to the dog
      * @return the object picked up by the dog
      */
-    public Object fetch(Object thing) {
+    public Object fetch(Object thing){
         return thing;
     }
 
