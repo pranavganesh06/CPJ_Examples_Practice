@@ -12,13 +12,13 @@ public class TicketSeller {
             System.out.print("Enter number of tickets to buy (1–4): ");
             int requested = in.nextInt();
 
-            // Validate input
+            // Check input
             if (requested < 1 || requested > 4) {
                 System.out.println("You can only buy between 1 and 4 tickets.\n");
                 continue;  // ask again
             }
 
-            // Check if enough tickets remain
+            // Check if enough tickets are left
             if (requested > remaining) {
                 System.out.println("Not enough tickets left. Try a smaller amount.\n");
                 continue;
